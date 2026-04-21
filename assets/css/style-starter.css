@@ -20918,6 +20918,12 @@ margin-left: 0;
 .logo-strap img:hover {
   opacity: 1;
 }
+@media only screen and (max-width: 768px) {
+  .logo-strap {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* AFFILIATIONS end */
 
 /* //Footer */
